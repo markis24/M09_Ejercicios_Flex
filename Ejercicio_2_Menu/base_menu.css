@@ -1,0 +1,46 @@
+body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   width: 90%;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   height: 100px;
+}
+
+li {
+   background-color: lightgrey;
+   text-align: center;
+}
+
+li:nth-of-type(5n+2) {
+   background-color:  #0A89A6;
+}
+
+li:nth-of-type(5n+3) {
+   background-color: #C8E6C9;
+}
+
+li:nth-of-type(5n+4) {
+   background-color: #278C7A;
+}
+
+li:nth-of-type(5n) {
+   background-color: #212121;
+}
+
+li:nth-of-type(5n+1) {
+   background-color:  #93A603;
+}
+
+a {
+   color: white;
+   font-size: 16px;
+   line-height: 50px;
+   text-decoration: none;
+}
+ 
