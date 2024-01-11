@@ -37,23 +37,23 @@ div:nth-of-type(5n+1) {
 
 /*https://color.adobe.com/es/create/image*/
 div:nth-of-type(5n+2) {
-   background-color:  #0A89A6;
+   background-color:  #f4800b;
 }
 
 div:nth-of-type(5n+3) {
-   background-color: #C8E6C9;
+   background-color: #10e817;
 }
 
 div:nth-of-type(5n+4) {
-   background-color: #278C7A;
+   background-color: #062be4;
 }
 
 div:nth-of-type(5n) {
-   background-color: #212121;
+   background-color: #616363;
 }
 
 div:nth-of-type(5n+1) {
-   background-color:  #93A603;
+   background-color:  #ff0606;
 }
 
 
@@ -64,7 +64,7 @@ span {
    background-color: rgba(255, 255, 255, .5);
    border-radius: 50%;
    display: block;
-   font-size: 48px;
+   font-size: 35px;
    height: auto;
    line-height: 3em;
    text-align: center;

@@ -3,3 +3,6 @@ section {
     flex-direction: row;
     flex-wrap: nowrap;
 }
+span{
+    font-size: 50px;
+}

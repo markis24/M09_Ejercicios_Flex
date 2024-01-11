@@ -1,0 +1,7 @@
+span{
+    transition: 0.2 ease , width 0.2s ease, height 0.2s ease;
+    font-size: 50px;
+}
+span:hover{
+    transform: rotate(45deg) scale(1.2);
+}
