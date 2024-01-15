@@ -1,0 +1,19 @@
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    display: flex;
+    width: 17%;
+    justify-content: center;
+
+}
+nav {
+    gap: 10px;
+}
+a{
+    display: block;
+}
+

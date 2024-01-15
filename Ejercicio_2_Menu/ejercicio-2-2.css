@@ -1,0 +1,22 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
+nav {
+    gap: 10px;
+}
+
+@media (max-width : 600px) {
+    section div{
+    height : 100px;
+    width: 10%;
+    }
+ }
