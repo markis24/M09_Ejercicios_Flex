@@ -1,0 +1,31 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+ }
+ 
+ section div {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ div span {
+    font-size: 30px;
+ }
+ 
+ section div:nth-of-type(5n) {
+    width: max-content;
+ }
+ 
+
+@media (max-width : 1024px) {
+    section div{
+    
+    height : 300px;
+    width: 49%;
+    
+    }
+}

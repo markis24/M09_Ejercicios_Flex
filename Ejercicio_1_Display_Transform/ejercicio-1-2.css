@@ -4,12 +4,11 @@ section{
     
  }
 
- div{
-    width: 20%;
-    padding: 10px;
+ section div{
+    width: 25%;
 
  }
- span{
+ div span{
    font-size: 40px;
    
 

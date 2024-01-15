@@ -1,17 +1,27 @@
-section{
-    display: flex;  
-    flex-wrap: wrap;
-    margin: 10px;
-    gap: 10px;
+section {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin: 10px;
+}
 
- }
+section div {
+   display: flex;
+   width: 80%;
+   padding: 20px;
+   border: 1px ;
+   justify-content: center;
+   align-items: center;
+}
 
- div{
-  
-    display: flex;
-    width: 80%;
-    padding: 20px;
-    border: 1px ;
- }
- 
+div span {
+   font-size: 30px;
+}
 
+@media (max-width : 600px) {
+   section div{
+   height : 100px;
+   width: 60%;
+   
+   }
+}
